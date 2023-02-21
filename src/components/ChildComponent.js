@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ChildComponent = (input) => {
+const ChildComponent = ({input}) => {
 //code here
   return (
     <div id="child">
