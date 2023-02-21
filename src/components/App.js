@@ -3,7 +3,7 @@ import '../styles/App.css';
 import ChildComponent from './ChildComponent';
 const App = () => {
  //code here
- const [inpu1,SetInp1]=useState();
+ const [inpu1,SetInp1]=useState(0);
 
   return (
     <div id="main">
