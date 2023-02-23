@@ -1,11 +1,11 @@
 import React from 'react'
 
-const ChildComponent = ({input}) => {
+const ChildComponent = (props) => {
 //code here
   return (
     <div id="child">
       Find The Square <br/>
-     {input}
+     {props.input}
     </div>
   )
 }
